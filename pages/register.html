@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../style.css">
+
+    <title>War Zone Session 1 | Register </title>
+
+
+
+
+    <style>
+       
+       .container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ff9900;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+p {
+  text-align: center;
+  margin-top: 15px;
+}
+
+a {
+  color: #ff9900;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 480px) {
+  .container {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  input,
+  textarea {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 16px;
+  }
+}
+    </style>
+
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row top-header">
+          <div class="col">
+            <h1>War Zone | Session - 1</h1>
+            <p>BGMI</p>
+          </div>
+        </div>
+        <div class="row bottom-navbar">
+          <div class="col">
+            <a class="navbar-link" href="../index.html">Home</a>
+            <a class="navbar-link" href="../pages/about.html">About</a>
+
+            <a class="navbar-link" href="../pages/contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+    
+ 
+<section>
+      <div class="container">
+        <h2>Register</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+    
+          <label for="bgmi-id">BGMI ID:</label>
+          <input type="text" id="bgmi-id" name="bgmi-id" required>
+    
+          <label for="contact-number">Contact Number:</label>
+          <input type="tel" id="contact-number" name="contact-number" pattern="[0-9]{10}" required>
+    
+          <label for="payment-details">Payment Details:</label>
+          <img src="../img/qr.png" alt="payment Qr">
+          <label for="payment-details">Scan QR or use UPI id</label>
+          <label for="payment-details">9005640164@paytm</label>
+          <textarea id="payment-details" name="payment-details" placeholder="enter transaction id" rows="5" required></textarea>
+          
+          
+    
+          <button type="submit">Register</button>
+        </form>
+        <h2>or</h2>
+        <a href="thanks.html" target="_blank"> <button> <i class="fab fa-whatsapp"> </i>Whatsapp Details wih payment screenshot</button></a>
+      </section>
+  
+  <section class="social-links">
+    <h2>Follow Us</h2>
+    <a href="https://www.facebook.com/gamingtournament" target="_blank">Facebook</a>
+  
+    <a href="https://www.instagram.com/gamingtournament" target="_blank">Instagram</a>
+  </section>
+  
+  <footer>
+    <p>&copy; 2023 War Zone. All rights reserved.</p>
+  </footer>
+  
+  
+  <!-- Rest of the code... -->
+  
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
