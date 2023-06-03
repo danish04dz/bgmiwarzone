@@ -1,0 +1,220 @@
+
+body, html {
+  height: 100%;
+  margin: 0;
+  
+}
+.top-header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/hec.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ 
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+.col p{
+  color: red;
+
+  
+
+}
+
+.bottom-navbar {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar-link {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+@media (max-width: 786px){
+  .col h1{
+    font-size: 30px;
+   
+    
+  }
+  .col p{
+    color: red;
+  
+    
+
+  }
+}
+
+.hero {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 100px;
+  text-align: center;
+}
+
+.hero h2 {
+  margin-bottom: 20px;
+}
+
+.hero .btn {
+  display: inline-block;
+  background-color: #ff9900;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+@media (max-width: 786px){
+  .hero {
+    padding: 50px;
+  }
+  
+  .hero h2 {
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+  .hero h3{
+   color: #ff9900;
+  }
+  .hero .btn {
+    padding: 8px 16px;
+  }
+  
+    
+
+  }
+
+
+  .winning-prices {
+    background-color: #f1f1f1;
+    padding: 20px;
+    align-items: center;
+   text-align: center;
+  }
+  
+  .winning-prices h2 {
+    margin-bottom: 20px;
+  }
+  
+  .price {
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+  }
+  
+  .price img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  @media(max-width:786px){
+    .winning-prices {
+      padding: 10px;
+    }
+    
+    .price img {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 5px;
+    }
+  }
+  .entry-fee {
+    
+    padding: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+   
+  }
+  
+  .entry-fee h2 {
+    margin-bottom: 20px;
+    
+    color: rgb(255, 89, 0);  }
+  
+  .entry-fee p {
+    margin-bottom: 10px;
+   
+    font-size: 15px;
+  }
+
+  .entry-fee .btn {
+    
+    display:inline;
+    background-color: #ff9900;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+   
+  }
+  
+  .rules {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  .rules h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ff9900;  }
+  
+  
+  .rules ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .rules li {
+    margin-bottom: 5px;
+  }
+
+
+  .contact-info {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .contact-info h2 {
+    margin-bottom: 20px;
+  }
+  
+  .contact-info p {
+    margin-bottom: 10px;
+  }
+  
+  .social-links {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    
+  }
+  
+  .social-links h2 {
+    margin-bottom: 5px;
+  }
+  
+  .social-links a {
+    color: #fff;
+    text-decoration: none;
+    padding-inline: 10px;
+    
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+  
+  }
